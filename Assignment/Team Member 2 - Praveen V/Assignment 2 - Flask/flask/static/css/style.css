@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+    .left,.main,.right{
+        width: 100%;
+    }
+}
+body{
+    background-color: rgb(212, 221, 231);
+}
+
+p{
+text-align: right;
+}
+
+nav
+{
+    background-color:#d3e0d3
+}
+
+.container
+{
+  background-color: #f9faf9;
+}
+
+
+.container-fluid
+{
+  background-color: rgb(255, 255, 255);
+}
+
+.collapse 
+{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+input[type=text], select 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select 
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select 
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] 
+  {
+    width: 100%;
+    background-color: #eaf6eb;
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover 
+  {
+    background-color: #ff0000;
+  }
+
+  input[type=search], select 
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(225, 217, 217);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+ 
+  
