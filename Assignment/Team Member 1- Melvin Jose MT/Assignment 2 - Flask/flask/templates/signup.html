@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>signup page</title>
+
+<style>
+
+    body{
+
+       background-color: rgb(225, 212, 212);
+    }
+</style>
+
+
+{% endblock %}
+
+{% block body %}
+
+<form>
+    <label><h5>NAME</h5></label><br>
+    <input type="text" placeholder="enter your full name" name="name">
+    <br>
+    <label><h5>EMAIL</h5></label><br>
+    <input type="email" placeholder="enter your correct email" name="email">
+
+    <br>
+    
+    <label><h5>PASSWORD</h5></label><br>
+    <input type="password" placeholder="enter your password" name="password">
+    <br>
+    <label><h5>RE-PASSWORD</h5></label><br>
+    <input type="password" placeholder="enter your password again" name="re-password">
+    <br>
+    <br>
+    <br>
+    <input type="submit" placeholder="signup" name="signup">
+</form>
+
+{% endblock %}

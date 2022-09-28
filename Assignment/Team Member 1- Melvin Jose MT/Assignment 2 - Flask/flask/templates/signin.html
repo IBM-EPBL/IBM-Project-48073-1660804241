@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>signin page</title>
+
+<style>
+
+     body{
+
+        background-color: rgb(213, 197, 197);
+     }
+</style>
+
+
+{% endblock %}
+
+{% block body %}
+
+<form>
+
+    <label><h5>EMAIL</h5></label><br>
+    
+    <input type="email" placeholder="enter your correct email" name="email">
+
+    <br>
+
+    <label><h5>PASSWORD</h5></label><br>
+    
+    <input type="password" placeholder="enter your password" name="password">
+
+    <br>
+
+    <br>
+    <input type="submit" placeholder="login" name="login">
+</form>
+{% endblock %}
