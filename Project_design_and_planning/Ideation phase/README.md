@@ -1,5 +1,5 @@
 # Ideation
-1.Literature survey
+-[X]Literature survey
 2.Empathy map
 3.Customer problem statement
 4.Brainstorm
